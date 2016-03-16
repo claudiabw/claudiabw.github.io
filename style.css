@@ -1,0 +1,79 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #2A2728;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5em;
+	max-width: 800px;
+}
+
+#header {
+	width: 100%;
+}
+
+.header {
+	display: inline-table;
+}
+
+#header-left {
+	text-align: left;
+}
+
+#header-left ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#header-left li {
+	display: inline-block;
+}
+
+#header-right {
+	position: relative;
+	float: right;
+}
+
+#projects {
+	width: 100%;
+}
+
+#projects-title {
+	width: 100%;
+	text-align: center;
+}
+
+.project {
+	margin-bottom: 3em;
+}
+
+.project h1 {
+	border-bottom: 2px solid blue;
+}
+
+#shake-awake {
+	background-color: blue;
+}
+
+.tag {
+	display: inline-block;
+}
+
+.info {
+	display: inline-block;
+}
+
+.more {
+	float: right;
+}
+
+/*** Maybe don't include? ***
+*
+.project-section:hover {
+	background-color: #2A2728;
+	color: white;
+}*/
