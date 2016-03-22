@@ -1,17 +1,30 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	background-color: #F7F7F7;
 	color: #2A2728;
+}
+
+::selection {
+	color: white;
+	background: #2A2728; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+	color: white;
+	background: #2A2728; /* Gecko Browsers */
 }
 
 .container {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 5em;
+	margin-bottom: 5em;
 	max-width: 800px;
 }
 
 #header {
 	width: 100%;
+	margin-bottom: -1em;
 }
 
 .header {
@@ -19,7 +32,14 @@ body {
 }
 
 #header-left {
-	text-align: left;
+	text-align: center;
+	margin-top: -2.5em;
+}
+
+#header-left h1 {
+	margin-bottom: 0px;
+	text-transform: lowercase;
+	font-size: 3.5em;
 }
 
 #header-left ul {
@@ -31,11 +51,28 @@ body {
 
 #header-left li {
 	display: inline-block;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+
+#header-left img {
+	width: 1.5em;
 }
 
 #header-right {
 	position: relative;
 	float: right;
+	color: #333333;
+}
+
+#header a:hover {
+	opacity: 0.75;
+}
+
+hr {
+	margin: 50px 0px 50px 0px;
+	border-color: #2A2728;
+	background-color: #2A2728;
 }
 
 #projects {
@@ -45,6 +82,9 @@ body {
 #projects-title {
 	width: 100%;
 	text-align: center;
+	font-weight: normal;
+	font-size: 1.1em;
+	margin-top: -1em;
 }
 
 .project {
@@ -52,15 +92,22 @@ body {
 }
 
 .project h1 {
-	border-bottom: 2px solid blue;
+	border-bottom: 2px solid #7F47DD;
+	font-size: 2.5em;
 }
 
 #shake-awake {
 	background-color: blue;
 }
 
-.tag {
+.tag-align {
 	display: inline-block;
+}
+
+.tag {
+	color: #4D4D4D;
+	text-transform: uppercase;
+	margin-left: 0.6em;
 }
 
 .info {
@@ -77,3 +124,4 @@ body {
 	background-color: #2A2728;
 	color: white;
 }*/
+
