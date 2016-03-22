@@ -1,17 +1,27 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-color: #F7F7F7;
-	color: #2A2728;
+	color: #373737;
 }
 
 ::selection {
 	color: white;
-	background: #2A2728; /* WebKit/Blink Browsers */
+	background: #373737; /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
 	color: white;
-	background: #2A2728; /* Gecko Browsers */
+	background: #373737; /* Gecko Browsers */
+}
+
+a {
+	color: #7F47DD;
+	font-family: serif;
+	font-style: italic;
+}
+
+a:hover {
+	opacity: 0.75;
 }
 
 .container {
@@ -62,17 +72,26 @@ body {
 #header-right {
 	position: relative;
 	float: right;
+	text-align: right;
+	font-size: 0.9em;
+	max-width: 50%;
 	color: #333333;
+}
+/*
+#header-right a {
+	color: #7F47DD;
+	font-family: serif;
+	font-style: italic;
 }
 
 #header a:hover {
 	opacity: 0.75;
 }
-
+*/
 hr {
 	margin: 50px 0px 50px 0px;
-	border-color: #2A2728;
-	background-color: #2A2728;
+	border-color: #373737;
+	background-color: #373737;
 }
 
 #projects {
@@ -105,7 +124,8 @@ hr {
 }
 
 .tag {
-	color: #4D4D4D;
+	/*color: #4D4D4D;*/
+	color: #666666;
 	text-transform: uppercase;
 	margin-left: 0.6em;
 }
@@ -115,7 +135,9 @@ hr {
 }
 
 .more {
+	/*color: #7F47DD;*/
 	float: right;
+	font-size: 1em;
 }
 
 /*** Maybe don't include? ***
