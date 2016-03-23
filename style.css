@@ -68,7 +68,7 @@ a:hover {
 }
 
 #header-left img {
-	width: 1.5em;
+	width: 1.8em;
 }
 
 #header-right {
@@ -80,17 +80,7 @@ a:hover {
 	color: #333333;
 	
 }
-/*
-#header-right a {
-	color: #7F47DD;
-	font-family: serif;
-	font-style: italic;
-}
 
-#header a:hover {
-	opacity: 0.75;
-}
-*/
 hr {
 	margin: 50px 0px 50px 0px;
 	border-color: #373737;
@@ -103,6 +93,7 @@ hr {
 
 #projects-title {
 	width: 100%;
+	text-transform: uppercase;
 	text-align: center;
 	font-weight: normal;
 	font-size: 1.1em;
@@ -115,6 +106,7 @@ hr {
 }
 
 .project-name h1 {
+	text-transform: lowercase;
 	border-bottom: 2px solid #7F47DD;
 	font-size: 2.5em;
 }
@@ -158,8 +150,12 @@ hr {
 	margin-top: -2em;
 }
 
+.back .mobile {
+	display: none;
+}
 .project-header {
 	text-align: center;
+	margin-bottom: 2em;
 }
 
 .project-header h1 {
@@ -171,4 +167,29 @@ hr {
 .project-feature {
 	margin-top: 2em;
 	width: 100%;
+}
+
+.section-title {
+	display: inline-block;
+	border-bottom: 2px solid #7F47DD;
+	font-size: 2.5em;
+}
+
+.footer {
+	margin-top: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.prev {
+	float: left;
+}
+
+.home {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.next {
+	float: right;
 }
