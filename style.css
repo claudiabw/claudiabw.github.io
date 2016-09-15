@@ -6,7 +6,7 @@ body {
 
 ::selection {
 	color: white;
-	background: #373737; /* WebKit/Blink Browsers */
+	background: #7F47DD; /* WebKit/Blink Browsers */
 }
 
 ::-moz-selection {
@@ -18,12 +18,18 @@ a {
 	color: #7F47DD;
 	font-family: Georgia, serif;
 	font-style: italic;
-	text-decoration: none;
+	text-decoration: underline;
 }
 
-a:hover {
+/*a:hover {
 	opacity: 0.75;
 	text-decoration: underline;
+}*/
+
+a:hover {
+	background-color: #7F47DD;
+	color: white;
+	text-decoration: none;
 }
 
 .container {
@@ -32,15 +38,18 @@ a:hover {
 	margin-top: 5em;
 	margin-bottom: 5em;
 	max-width: 800px;
+	/*90% for mobile*/
 }
 
 #header {
 	width: 100%;
-	margin-bottom: -1em;
+	border-bottom: 2px solid #373737;
+	padding-bottom: 2.5em;
 }
 
 .header {
-	display: inline-table;
+	/* change to display:block; for mobile */
+	display: inline-block;
 }
 
 #header-left {
@@ -73,6 +82,7 @@ a:hover {
 
 #header-right {
 	position: relative;
+	/* change to float:none; for mobile */
 	float: right;
 	text-align: right;
 	font-size: 0.9em;
@@ -80,12 +90,12 @@ a:hover {
 	color: #333333;
 	
 }
-
+/*
 hr {
 	margin: 50px 0px 50px 0px;
 	border-color: #373737;
 	background-color: #373737;
-}
+}*/
 
 #projects {
 	width: 100%;
@@ -97,8 +107,8 @@ hr {
 	text-align: center;
 	font-weight: normal;
 	font-size: 1.1em;
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 2.5em;
+	margin-bottom: 2em;
 }
 
 .project-section {
