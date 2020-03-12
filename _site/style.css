@@ -1,0 +1,195 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #F7F7F7;
+	color: #373737;
+}
+
+::selection {
+	color: white;
+	background: #373737; /* WebKit/Blink Browsers */
+}
+
+::-moz-selection {
+	color: white;
+	background: #373737; /* Gecko Browsers */
+}
+
+a {
+	color: #7F47DD;
+	font-family: Georgia, serif;
+	font-style: italic;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.75;
+	text-decoration: underline;
+}
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5em;
+	margin-bottom: 5em;
+	max-width: 800px;
+}
+
+#header {
+	width: 100%;
+	margin-bottom: -1em;
+}
+
+.header {
+	display: inline-table;
+}
+
+#header-left {
+	text-align: center;
+	margin-top: -2.5em;
+}
+
+#header-left h1 {
+	margin-bottom: 0.1em;
+	text-transform: lowercase;
+	font-size: 3.5em;
+}
+
+#header-left ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#header-left li {
+	display: inline-block;
+	margin-left: 0.25em;
+	margin-right: 0.25em;
+}
+
+#header-left img {
+	width: 1.8em;
+}
+
+#header-right {
+	position: relative;
+	float: right;
+	text-align: right;
+	font-size: 0.9em;
+	max-width: 50%;
+	color: #333333;
+	
+}
+
+hr {
+	margin: 50px 0px 50px 0px;
+	border-color: #373737;
+	background-color: #373737;
+}
+
+#projects {
+	width: 100%;
+}
+
+#projects-title {
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: normal;
+	font-size: 1.1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.project-section {
+	margin-bottom: 5em;
+}
+
+.project-name h1 {
+	text-transform: lowercase;
+	border-bottom: 2px solid #7F47DD;
+	font-size: 2.5em;
+}
+
+.project-name {
+	margin-bottom: -1em;
+}
+
+.tag-align {
+	display: inline-block;
+}
+
+.tag {
+	/*color: #4D4D4D;*/
+	color: #666666;
+	text-transform: uppercase;
+	margin-left: 0.6em;
+}
+
+.info {
+	display: inline-block;
+}
+
+.more {
+	/*color: #7F47DD;*/
+	float: right;
+	font-size: 1em;
+}
+
+/*** Maybe don't include? ***
+*
+.project-section:hover {
+	background-color: #2A2728;
+	color: white;
+}*/
+
+/*** Project Pages CSS ***/
+.back {
+	position: fixed;
+	margin-left: 1.5em;
+	margin-top: -2em;
+}
+
+.back .mobile {
+	display: none;
+}
+.project-header {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+.project-header h1 {
+	text-transform: lowercase;
+	font-size: 2.5em;
+	margin-bottom: -0.25em;
+}
+
+.project-feature {
+	margin-top: 2em;
+	width: 100%;
+}
+
+.section-title {
+	display: inline-block;
+	border-bottom: 2px solid #7F47DD;
+	font-size: 2.5em;
+}
+
+.footer {
+	margin-top: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.prev {
+	float: left;
+}
+
+.home {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.next {
+	float: right;
+}
