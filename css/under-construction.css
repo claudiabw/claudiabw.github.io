@@ -1,5 +1,5 @@
 body {
-	background-color: #f0fffa;
+	background-color: #FAF8ED;
 }
 
 #computer {
@@ -14,34 +14,55 @@ body {
 	width: 100%;
 }
 
-#text {
+#main {
 	text-align: left;
 	font-family: 'Hind', sans-serif;
-	margin-top: 19em;
+	margin-top: 20em;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: #FFE9AD;
+	padding: 6%;
+	padding-left: 12%;
+	padding-right: 0%;
+	border-radius: 32% 68% 71% 29% / 30% 65% 35% 70% ;*/
+}
+
+#main h1 {
+	font-weight: 400;
+	font-size: 40px;
+	/*margin-bottom: -10px;*/
+	font-family: 'Libre Baskerville', serif;
+}
+
+#main p {
+	font-size:20px;
+	line-height:25px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+	}
+
+#text {
 	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#text h1 {
-	font-weight: 600;
-	font-size: 60px;
-	margin-bottom: -20px;
-}
-
 #text p {
 	font-size:20px;
 	line-height:25px;
+	font-family: 'Hind', sans-serif;
 	}
 
 a {
-	text-decoration: none;
-	color: #1edcac;
-	font-weight: 500;
+	text-decoration: underline;
+	text-decoration-color: #d7b8ff;
+	color: inherit;
 }
 
 a:hover {
 	color: #d7b8ff;
+	text-decoration-thickness: 5px;
 }
 
 p::-moz-selection {
